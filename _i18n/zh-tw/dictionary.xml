@@ -288,7 +288,6 @@
   <block id="18c27fdda3b31de582a5c418705a0eab" category="paragraph">建立叢集可能需要30分鐘的時間。</block>
   <block id="aa28e7538205e834e26c77f5630f8893" category="list-text">監控多步驟叢集建立程序、確認叢集已成功建立。</block>
   <block id="037cb8cf634438a48c4a376dd2eaecea" category="paragraph">頁面會定期自動重新整理。</block>
-  <block id="d4f87fedecd0cb118e567859f3b4f8b0" category="admonition">如果叢集建立作業已啟動但無法完成、您定義的 ONTAP 管理密碼可能尚未登錄。在這種情況下、您可以使用ONTAP Select 管理員帳戶的密碼_changeme123_來存取該叢集的管理介面。</block>
   <block id="c29c0fa60d66b44a13904899d8712c68" category="open-title">多節點叢集</block>
   <block id="1c9615c8466b4b5438d388b4200a58b4" category="list-text">如果顯示 * 歡迎使用 ONTAP Select * 快顯視窗、請確認您已符合組態先決條件、然後按一下 * 確定 * 。</block>
   <block id="736cb4ef7019568859d8e044e044c906" category="list-text">在「*入門*」頁面上、按一下「*上傳*」、然後從本機工作站選取授權、再按一下「*開啟*」上傳授權。重複以新增第二個授權。</block>
@@ -3841,4 +3840,5 @@ RAID SyncMirror （ RSM ）</block>
   <block id="cfc60e5db5da2e3856f4ae65f1b4493b" category="cell">ONTAP Select 虛擬機器調整大小（中小型、中型至大型）</block>
   <block id="5afd324114e926d9bb06b382e5c6f40e" category="cell">強制：授權已過期</block>
   <block id="71781f9ea0fb446c6a84f96eac4f474f" category="cell">是（無寬限期）</block>
+  <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">如果叢集建立作業已啟動但無法完成、您定義的 ONTAP 管理密碼可能不會套用。如果發生這種情況、請聯絡 NetApp 技術支援部門以取得協助。</block>
 </blocks>
