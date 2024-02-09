@@ -571,12 +571,6 @@ ONTAP Select Deploy 公用程式所建立的記錄檔</block>
   <block id="bbbb96898e430d9cf7e061ad70ad17ad" category="list-text">提供vCenter認證並選取外掛程式版本。</block>
   <block id="9909e23ede42f2318acada35ac10bd3e" category="list-text">按一下 * 註冊 * 。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
-  <block id="b56253bf92505bda20b38657c778bccf" category="doc">頁面標題移至此處</block>
-  <block id="5d9328ee3f628e51f1a4f871ccff7313" category="paragraph">無論您撥打什麼內容、都可以使用此範本來閱讀文章、主題。index.adoc 檔案的文章頁面關鍵字不正確、若將其作為範本使用、可能會在稍後造成發佈問題。</block>
-  <block id="26739de98ff2a207a5c145caf27c2508" category="admonition">在初始發佈之前刪除此檔案、因為即使檔案未連結至側邊列、也會發佈該檔案。建立幾篇文章之後、您可以改用這些文章做為入門文章。</block>
-  <block id="38b255c5af258b1f086fb7c9aa4f252c" category="paragraph">如果您的文章位於內容子資料夾中、您需要對上述表示法進行兩項調整：</block>
-  <block id="df25e29acec650a07b41041946158355" category="list-text"><block ref="abc9d0bfc8d5688ddd4babf6a5402ee4" prefix="" category="inline-code"></block></block>
-  <block id="97df5ffadc97296dc727ffddf2d2e1fe" category="list-text"><block ref="ff695bd1637208b4929c7ae2085cd551" prefix="" category="inline-code"></block></block>
   <block id="f003eee578389a046f25dba6e783a672" category="summary">支援組織內一個或多個私有雲端的理想選擇。ONTAP Select常見的使用案例是為建置於市售伺服器上的私有雲端提供儲存服務。</block>
   <block id="fb4b04f0bbd3011e95882612761e5f4a" category="doc">私有雲端與資料中心</block>
   <block id="cc2d9bf42776eb79fe1ddb4e755eff01" category="paragraph">如同公有雲、私有雲提供靈活度、以及快速設定和卸載。此外、私有雲端還能提升安全性與控管能力。</block>
@@ -3841,4 +3835,5 @@ RAID SyncMirror （ RSM ）</block>
   <block id="5afd324114e926d9bb06b382e5c6f40e" category="cell">強制：授權已過期</block>
   <block id="71781f9ea0fb446c6a84f96eac4f474f" category="cell">是（無寬限期）</block>
   <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">如果叢集建立作業已啟動但無法完成、您定義的 ONTAP 管理密碼可能不會套用。如果發生這種情況、請聯絡 NetApp 技術支援部門以取得協助。</block>
+  <block id="b5150f2681f3eb5a5b6aab4cbdadad34" category="paragraph">虛擬 NAS （ vNAS ）部署支援虛擬 SAN （ VSAN ）上的 ONTAP Select 叢集、部分 HCI 產品、以及外部陣列類型的資料存放區。這些組態的基礎架構可提供資料存放區恢復能力。</block>
 </blocks>
