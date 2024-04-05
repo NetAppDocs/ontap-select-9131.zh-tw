@@ -3836,4 +3836,5 @@ RAID SyncMirror （ RSM ）</block>
   <block id="71781f9ea0fb446c6a84f96eac4f474f" category="cell">是（無寬限期）</block>
   <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">如果叢集建立作業已啟動但無法完成、您定義的 ONTAP 管理密碼可能不會套用。如果發生這種情況、請聯絡 NetApp 技術支援部門以取得協助。</block>
   <block id="b5150f2681f3eb5a5b6aab4cbdadad34" category="paragraph">虛擬 NAS （ vNAS ）部署支援虛擬 SAN （ VSAN ）上的 ONTAP Select 叢集、部分 HCI 產品、以及外部陣列類型的資料存放區。這些組態的基礎架構可提供資料存放區恢復能力。</block>
+  <block id="8e59a8dddb8fd9611be1f2b3aca8c4fa" category="admonition">ONTAP Select 9.12.1 及更新版本現在支援 SVM DR 做為最多 16 個關係的來源。SVM DR 支援僅限於使用來源 ONTAP 版本至版本 +2 、例如 9.12.1 至 9.14.1 。</block>
 </blocks>
