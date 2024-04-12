@@ -3837,4 +3837,10 @@ RAID SyncMirror （ RSM ）</block>
   <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">如果叢集建立作業已啟動但無法完成、您定義的 ONTAP 管理密碼可能不會套用。如果發生這種情況、請聯絡 NetApp 技術支援部門以取得協助。</block>
   <block id="b5150f2681f3eb5a5b6aab4cbdadad34" category="paragraph">虛擬 NAS （ vNAS ）部署支援虛擬 SAN （ VSAN ）上的 ONTAP Select 叢集、部分 HCI 產品、以及外部陣列類型的資料存放區。這些組態的基礎架構可提供資料存放區恢復能力。</block>
   <block id="8e59a8dddb8fd9611be1f2b3aca8c4fa" category="admonition">ONTAP Select 9.12.1 及更新版本現在支援 SVM DR 做為最多 16 個關係的來源。SVM DR 支援僅限於使用來源 ONTAP 版本至版本 +2 、例如 9.12.1 至 9.14.1 。</block>
+  <block id="5c4629755c5a0a5545bb649c6d58d899" category="list-text">更新的 ONTAP Select 部署支援</block>
+  <block id="f371e1e74365e433f105f30c886225bf" category="inline-link-macro">ONTAP Select 9.14.1 版本資訊</block>
+  <block id="2183c79114d56889f4a8854299f703a5" category="list-text">截至 2024 年 4 月、 ONTAP Select Deploy 9.13.1 已不再適用於 NetApp 支援網站 。如果您執行的是 ONTAP Select Deploy 9.13.1 、則應儘快升級至 ONTAP Select Deploy 9.14.1P2 。如需詳細資訊、請參閱 <block ref="6635db952aa4480bb5bc591b4d6d32f6" category="inline-link-macro-rx"></block>。</block>
+  <block id="6e1144fb904fc4097d1a90d7908b66cc" category="paragraph">自 2024 年 4 月起、 ONTAP Select Deploy 9.12.1 不再適用於 NetApp 支援網站 。如果您執行的是 ONTAP Select Deploy 9.12.1 、則應儘快升級至 ONTAP Select Deploy 9.14.1P2 。如需詳細資訊、請參閱 <block ref="6635db952aa4480bb5bc591b4d6d32f6" category="inline-link-macro-rx"></block>。</block>
+  <block id="044e8c7d609a0b31483ad9c6588ccd58" category="admonition">只有 ESXi 支援調整大小至大型執行個體類型。</block>
+  <block id="afc299163ecc817c9d73bc5033f67218" category="admonition">由於可能需要在每個拓撲所需的不同 NIC 群組組組態之間轉換、因此不支援在執行中叢集上的單一連結和多個連結拓撲之間進行轉換。</block>
 </blocks>
