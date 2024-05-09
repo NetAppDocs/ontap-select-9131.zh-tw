@@ -3458,14 +3458,12 @@ RAID SyncMirror （ RSM ）</block>
   <block id="52ecd883835a7af5f8d256d58d2abe6e" category="list-text">如果ONTAP Select 還升級到大型執行個體（使用Premium XL授權）、則不支援還原至9.6之前的舊版、因為舊版不提供大型執行個體功能。</block>
   <block id="6c934076f6916c570e1e192badaff0f6" category="paragraph-title">不需要取得進階授權嗎？ONTAP MetroCluster</block>
   <block id="b127099c71415d532da3a26ed73eb041" category="paragraph">是的。</block>
-  <block id="d2ff884cc30a8e5431e7b9a592afafd4" category="paragraph-title">安裝完成後、ONTAP Select 是否ONTAP Select 可以變更功能不完整的部署IP位址、以及叢集與節點管理功能？</block>
   <block id="59515ed968b51f31e5dba26d6fd648ce" category="paragraph">使用GUI、CLI或REST API提供的叢集重新整理作業、即可透過下列功能識別出對下列功能的變更：ONTAP Select ONTAP Select</block>
   <block id="bbb35a1e775c0757714d8b256538794e" category="list-text">網路組態（IP位址、DNS、NTP、網路遮罩和閘道）</block>
   <block id="568db67896a68d00d01c4318b9923a4f" category="list-text">叢集、節點名稱和版本ONTAP Select</block>
   <block id="2512f4a6ef0d48270b57d0cdb82d209d" category="paragraph">下列的不一致VM變更也會被辨識：ONTAP Select</block>
   <block id="b9da6bd39757894ad2e3c186e8c36ea3" category="list-text">列舉虛擬機器名稱和狀態變更（例如線上或離線）ONTAP Select</block>
   <block id="8aa44dba68f081d2ac92bd3c8bd38375" category="list-text">主機網路名稱和儲存資源池名稱會變更</block>
-  <block id="0505613d75e769b75ece38e7cd9acbeb" category="admonition">不ONTAP Select 支援變更不支援的靜態部署VM IP位址。</block>
   <block id="1c1b6371821b57c0181e5ac9c60110dd" category="paragraph">升級ONTAP Select 至支援使用支援這些變更的功能、適用於ONTAP Select 已部署但尚未變更原始組態的任何叢集。換句話說、如果ONTAP Select 使用System Manager或vCenter變更上述的VMware叢集屬性、則升級ONTAP Select 至VMware部署2.6將無法修正這些不一致的問題。必須先回復此功能的更新以供還原、才能將其獨特的中繼資料新增至每個支援功能VM。ONTAP Select ONTAP Select ONTAP Select</block>
   <block id="ceed3431e832bcc4ed7abd4ee42953a3" category="paragraph">儲存設備有幾個問題和答案。</block>
   <block id="635eb068c84d97fe678e1459fc684023" category="paragraph-title">單ONTAP Select 一的VMware部署執行個體是否能在ESX和KVM上建立叢集？</block>
@@ -3849,4 +3847,24 @@ RAID SyncMirror （ RSM ）</block>
   <block id="b41a57a870dbb2988a82d37df74541fa" category="list-text">如果顯示 * 歡迎使用 ONTAP Select * 快顯視窗、請檢閱必要條件、然後選取 * 確定 * 繼續。</block>
   <block id="4d63a206f9a467135d39dc9c9512fc9e" category="inline-link-macro">支援的 ONTAP 升級路徑</block>
   <block id="8c3e5d2f8a26562237025f868ae58fd6" category="list-text">使用ONTAP Select 標準ONTAP 的升級程序、透過ONTAP Select 升級檔升級到這個節點。如需支援升級路徑的相關資訊、請參閱 <block ref="641712e0b7bbcdbd0a030cb6eba15629" category="inline-link-macro-rx"></block>。</block>
+  <block id="0eac7bd25176d9e38db43b4181062abe" category="list-text">多租戶金鑰管理程式（ MTKM ）</block>
+  <block id="666ca9627e87a2f5ba354cdf9f1b35dd" category="paragraph">如需 ONTAP Select 和授權續約的詳細資訊、請參閱中的「授權、安裝、升級及還原」一節 <block ref="7219e755fcbad1744f8ee5b6bd1c51b6" category="inline-link-macro-rx"></block>。</block>
+  <block id="e9bea8d0b42d385115a0325044f2d402" category="paragraph-title">ONTAP Select 叢集網路組態是否可以在安裝後變更？</block>
+  <block id="6ffb75b64cf302e3f2f57c74d51f319d" category="paragraph-title">ONTAP Select 部署網路組態是否可以在安裝後變更？</block>
+  <block id="7d43503b6c7e842cf0609c80d607e71e" category="inline-link-macro">知識庫文章 - 修改 ONTAP 部署執行個體的 DNS 組態</block>
+  <block id="f749fbe2e5bf0cebd2b21a449646f930" category="paragraph">不支援在環境中執行部署執行個體後、修改其網路詳細資料。如需詳細資訊、請參閱 <block ref="46ce5e00458e90fd9337d10a66b64599" category="inline-link-macro-rx"></block>。</block>
+  <block id="728dae8c09c02d31a488c58d0abbc713" category="paragraph-title">部署如何偵測 ONTAP Select 授權是否已續約？</block>
+  <block id="1c404f221fc19754e03aac9abdf229e0" category="paragraph">所有授權的方法都相同、不過具體細節會因容量層或容量池授權而異。</block>
+  <block id="8c41baf1ca98e1184f48c4721d44d431" category="inline-link-macro">NetApp 支援網站</block>
+  <block id="7eb90e44cd52166d38ee412a0232d948" category="list-text">ONTAP Select Deploy 會偵測授權與支援合約是否在從 NetApp 購買更新的授權檔案時續約。授權檔案（ .NLF ）包含容量、開始日期和結束日期、並會在上產生 <block ref="49b4f755ae136a93a19c82bfba9113cf" category="inline-link-macro-rx"></block>，然後在部署伺服器上更新。</block>
+  <block id="df893ad066dabfa13efd91221b3bccff" category="admonition">您可以使用 *Add* 和 *Update* 功能將 NLF 載入部署伺服器。* 新增 * 新增授權至伺服器、 * 更新 * 會以容量、節點授權（標準、高級、優質 XL ）、支援開始與結束日期（容量層級授權）、或訂閱開始與結束日期（容量池授權）等資訊來更新現有檔案。</block>
+  <block id="d39f37cf3f2791c375e1df22336bc0c1" category="admonition">請勿嘗試修改授權檔案。這樣做會使安全金鑰失效、並使授權無效。</block>
+  <block id="8f5801f55c8818fb8546dec02aa0cb36" category="list-text">* 容量層授權 * 是連結至 ONTAP Select 節點序號的每個節點永久授權。隨附獨立的支援合約。雖然授權是永久的、但必須續約支援合約才能存取 ONTAP Select 升級、並獲得 NetApp 技術支援的協助。變更授權參數（例如容量或節點大小）也需要目前的支援合約。</block>
+  <block id="477c7238569246f69cc9ae8f8ecc6b57" category="paragraph">購買容量層授權更新、參數變更或支援合約續約時、訂單中需要節點序號。容量層節點序號長度為九位數、開頭為數字「 32 」。</block>
+  <block id="ea9589592b98533b70a296a006630c8b" category="paragraph">一旦購買完成並產生授權檔案、就會使用 * 更新 * 功能上傳至部署伺服器。</block>
+  <block id="6e6f36110dec05c8c4b7d9473e704fee" category="list-text">* 容量資源池授權 * 是使用特定容量集區和節點大小（標準、高階、高階 XL ）來部署一或多個叢集的權利訂閱。訂閱內容包括使用授權的權利、以及特定條款的支援。使用授權和支援合約的權利已指定開始和結束日期。</block>
+  <block id="920b036cff328a6924c0fbdd7ab08f4d" category="paragraph-title">部署如何偵測節點是否有續約授權或支援合約？</block>
+  <block id="c3975d39937733b863b8e078a435a60a" category="paragraph">購買、產生及上傳更新的授權檔案、是部署如何偵測更新的授權與支援合約。</block>
+  <block id="79416550309ddcac023464218d55a23d" category="paragraph">如果容量層支援合約的結束日期已過、則節點可以繼續執行、但您無法下載及安裝 ONTAP 更新、或是致電 NetApp 技術支援部門尋求協助、而無需先將支援合約更新至最新版本。</block>
+  <block id="9b9568babf180c232b393ba5f95ff4c3" category="paragraph">如果容量集區訂閱失效、系統會先發出警告、但 30 天後、如果系統關機、系統將不會重新開機、直到部署伺服器上安裝更新的訂閱為止。</block>
 </blocks>

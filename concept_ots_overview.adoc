@@ -94,6 +94,7 @@ image:ots_architecture.png["說明ONTAP Select 以部署管理公用程式建立
 與硬體型 ONTAP 部署搭配使用的傳統健全狀況監控、是專屬於基礎硬體元件的。由於搭配使用的虛擬化環境ONTAP Select 、因此健全狀況監視器並未啟動。
 * 介面群組
 不支援介面群組。
+* 多租戶金鑰管理程式（ MTKM ）
 * NIC 卸載支援
 由於 ONTAP Select 使用的虛擬化環境、因此不支援 NIC 卸載功能。
 * NetApp儲存加密磁碟機
