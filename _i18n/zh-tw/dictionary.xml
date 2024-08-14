@@ -2336,21 +2336,12 @@ Hypervisor 主機必須連接必要的 SSD 磁碟、並可供 ONTAP Select 虛�
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律聲明提供版權聲明、商標、專利等存取權限。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
-  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
-  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 標誌及 NetApp 商標頁面上列出的標章均為 NetApp 、 Inc. 的商標。其他公司與產品名稱可能為其各自所有者的商標。</block>
-  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
-  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">專利</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">如需最新的 NetApp 擁有專利清單、請參閱：</block>
-  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
-  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
-  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
-  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
-  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
   <block id="e5b41f4225b398db953f0053c56d6542" category="summary">當您開始探索ONTAP Select 及規劃部署時、首先熟悉術語和關鍵概念是很有幫助的。</block>
   <block id="c2bc0ae1706759fd80fd4a8f16903a8d" category="doc">術語和主要概念</block>
   <block id="391a56271aac0c7272e3e9bc2a840da1" category="list-text">「部署」是用來部署叢集的管理公用程式。ONTAP Select ONTAP Select部署公用程式可在專屬的Linux虛擬機器上執行。您可以透過Web使用者介面、CLI管理Shell和REST API來存取部署公用程式。</block>
@@ -3830,7 +3821,6 @@ RAID SyncMirror （ RSM ）</block>
   <block id="71781f9ea0fb446c6a84f96eac4f474f" category="cell">是（無寬限期）</block>
   <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">如果叢集建立作業已啟動但無法完成、您定義的 ONTAP 管理密碼可能不會套用。如果發生這種情況、請聯絡 NetApp 技術支援部門以取得協助。</block>
   <block id="b5150f2681f3eb5a5b6aab4cbdadad34" category="paragraph">虛擬 NAS （ vNAS ）部署支援虛擬 SAN （ VSAN ）上的 ONTAP Select 叢集、部分 HCI 產品、以及外部陣列類型的資料存放區。這些組態的基礎架構可提供資料存放區恢復能力。</block>
-  <block id="8e59a8dddb8fd9611be1f2b3aca8c4fa" category="admonition">ONTAP Select 9.12.1 及更新版本現在支援 SVM DR 做為最多 16 個關係的來源。SVM DR 支援僅限於使用來源 ONTAP 版本至版本 +2 、例如 9.12.1 至 9.14.1 。</block>
   <block id="5c4629755c5a0a5545bb649c6d58d899" category="list-text">更新的 ONTAP Select 部署支援</block>
   <block id="f371e1e74365e433f105f30c886225bf" category="inline-link-macro">ONTAP Select 9.14.1 版本資訊</block>
   <block id="2183c79114d56889f4a8854299f703a5" category="list-text">截至 2024 年 4 月、 ONTAP Select Deploy 9.13.1 已不再適用於 NetApp 支援網站 。如果您執行的是 ONTAP Select Deploy 9.13.1 、則應儘快升級至 ONTAP Select Deploy 9.14.1P2 。如需詳細資訊、請參閱 <block ref="6635db952aa4480bb5bc591b4d6d32f6" category="inline-link-macro-rx"></block>。</block>
@@ -3867,4 +3857,5 @@ RAID SyncMirror （ RSM ）</block>
   <block id="c3975d39937733b863b8e078a435a60a" category="paragraph">購買、產生及上傳更新的授權檔案、是部署如何偵測更新的授權與支援合約。</block>
   <block id="79416550309ddcac023464218d55a23d" category="paragraph">如果容量層支援合約的結束日期已過、則節點可以繼續執行、但您無法下載及安裝 ONTAP 更新、或是致電 NetApp 技術支援部門尋求協助、而無需先將支援合約更新至最新版本。</block>
   <block id="9b9568babf180c232b393ba5f95ff4c3" category="paragraph">如果容量集區訂閱失效、系統會先發出警告、但 30 天後、如果系統關機、系統將不會重新開機、直到部署伺服器上安裝更新的訂閱為止。</block>
+  <block id="f99bb666310fb365b4d0029c161a384b" category="admonition">ONTAP Select 9.12.1 及更新版本現在支援 SVM DR 做為來源和目的地、最多可與 16 個關係。SVM DR 支援僅限於使用來源 ONTAP 版本至版本 +2 。例如、 ONTAP Select 9.12.1 來源可以連線至目的地 ONTAP 9.12.1 、 9.13.1 或 9.14.1 版。</block>
 </blocks>
