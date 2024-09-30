@@ -3295,7 +3295,6 @@ RAID SyncMirror （ RSM ）</block>
   <block id="58c277c116ff23ffb9879debb95b4968" category="list-text">支援 NVMe over TCP</block>
   <block id="db5f5d6e1e5a3e29724ce78258556ff1" category="list-text">升級至 ONTAP Select 9.13.1 時、您必須擁有新的授權、才能透過 TCP 支援 NVMe 。當您第一次從 9.13.1 版開始部署 ONTAP Select 時、就會自動包含此授權。</block>
   <block id="5f4c6121d4f63aaa5d6daebc2a2effee" category="list-text">更新VMware ESXi支援</block>
-  <block id="4d8daf3f51ebf7fefb4dfcf900e9b79d" category="list-text">從 ONTAP 9.13.1 開始、硬體版本 4 及更新版本支援 VMware ESXi 8.0 GA （組建 20513097 ）。</block>
   <block id="77e5d3b8719596b41c77222a6711e69b" category="section-title">零點9.12.1. ONTAP Select</block>
   <block id="05dd50ebf48db80deadf4c9a847c2ce4" category="paragraph">目前發行的核心版的核心版大部分新開發成果、均可讓您受益於此功能ONTAP ONTAP Select 。不包含ONTAP Select 任何特定於功能更新或改進功能。</block>
   <block id="7802fb8cc2dd2205ca511b49141235e0" category="section-title">ONTAP Select 9.11.1.</block>
@@ -3858,4 +3857,5 @@ RAID SyncMirror （ RSM ）</block>
   <block id="79416550309ddcac023464218d55a23d" category="paragraph">如果容量層支援合約的結束日期已過、則節點可以繼續執行、但您無法下載及安裝 ONTAP 更新、或是致電 NetApp 技術支援部門尋求協助、而無需先將支援合約更新至最新版本。</block>
   <block id="9b9568babf180c232b393ba5f95ff4c3" category="paragraph">如果容量集區訂閱失效、系統會先發出警告、但 30 天後、如果系統關機、系統將不會重新開機、直到部署伺服器上安裝更新的訂閱為止。</block>
   <block id="f99bb666310fb365b4d0029c161a384b" category="admonition">ONTAP Select 9.12.1 及更新版本現在支援 SVM DR 做為來源和目的地、最多可與 16 個關係。SVM DR 支援僅限於使用來源 ONTAP 版本至版本 +2 。例如、 ONTAP Select 9.12.1 來源可以連線至目的地 ONTAP 9.12.1 、 9.13.1 或 9.14.1 版。</block>
+  <block id="2908aba1afb68c480565ae68ebe3508c" category="list-text">從 ONTAP 9 。 13.1 開始、硬體版本 4 及更新版本支援 VMware ESXi 8.0.1 GA （組建 20513097 ）。</block>
 </blocks>
