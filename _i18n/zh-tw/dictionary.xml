@@ -2658,7 +2658,6 @@ Hypervisor 主機必須連接必要的 SSD 磁碟、並可供 ONTAP Select 虛�
   <block id="bb4535bc16c1e303453a76a7d6669910" category="paragraph"><block ref="bb4535bc16c1e303453a76a7d6669910" category="inline-image-macro-rx" type="image"></block></block>
   <block id="83aee6fb82bd87d789e0851835b555f8" category="admonition">NVRAM磁碟分割區是在自己的VMDK上分隔。VMDK是使用ESX版本6.5或更新版本中提供的vNVME驅動程式來附加。這項變更對於ONTAP Select 使用軟體RAID進行的版本更新來說最重要、因為軟體RAID無法從RAID控制器快取中獲益。</block>
   <block id="20d1ab0feefc64acee2b330a6d8db177" category="summary">NetApp ONTAP Select VMware vCenter是軟體定義儲存應用裝置、可部署在執行VMware ESXi Hypervisor的各種市售硬體伺服器上。它提供您建置靈活且可擴充的私有雲基礎架構所需的敏捷度。本網站包含 ONTAP Select 9.13.1 的文件。</block>
-  <block id="7436b418bed093768e360d32105591d2" category="doc">本文檔ONTAP Select</block>
   <block id="a451fb0a81dc4fb9e6df8ff3f0cd6380" category="summary">您可以在ONTAP Select 遠端辦公室/分公司（ROBO）環境中部署功能。在規劃ROBO部署時、您必須選擇支援目標的組態。</block>
   <block id="e629f0dfc57ffa98b8aabae83c3e5032" category="doc">遠端與分公司部署</block>
   <block id="1cfe009dafaa293a83a8a143e8aeb868" category="paragraph">在ONTAP Select ROBO環境中部署時、有兩種主要組態可供使用。</block>
@@ -3858,4 +3857,5 @@ RAID SyncMirror （ RSM ）</block>
   <block id="9b9568babf180c232b393ba5f95ff4c3" category="paragraph">如果容量集區訂閱失效、系統會先發出警告、但 30 天後、如果系統關機、系統將不會重新開機、直到部署伺服器上安裝更新的訂閱為止。</block>
   <block id="f99bb666310fb365b4d0029c161a384b" category="admonition">ONTAP Select 9.12.1 及更新版本現在支援 SVM DR 做為來源和目的地、最多可與 16 個關係。SVM DR 支援僅限於使用來源 ONTAP 版本至版本 +2 。例如、 ONTAP Select 9.12.1 來源可以連線至目的地 ONTAP 9.12.1 、 9.13.1 或 9.14.1 版。</block>
   <block id="2908aba1afb68c480565ae68ebe3508c" category="list-text">從 ONTAP 9 。 13.1 開始、硬體版本 4 及更新版本支援 VMware ESXi 8.0.1 GA （組建 20513097 ）。</block>
+  <block id="f630830f3860fe406fda620cc5421cf3" category="sidebar">ONTAP Select 9.13.1 文件</block>
 </blocks>

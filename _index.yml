@@ -1,6 +1,6 @@
 ---
 indexpage:
-  title: 本文檔ONTAP Select
+  title: ONTAP Select 9.13.1 文件
   summary: NetApp ONTAP Select VMware vCenter是軟體定義儲存應用裝置、可部署在執行VMware ESXi Hypervisor的各種市售硬體伺服器上。它提供您建置靈活且可擴充的私有雲基礎架構所需的敏捷度。本網站包含
     ONTAP Select 9.13.1 的文件。
   keywords: ontap select, storage appliance, upgrade, deployment, ontap, 9.13.1
